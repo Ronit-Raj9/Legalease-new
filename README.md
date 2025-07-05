@@ -415,7 +415,7 @@ A: Yes, LegalEase provides APIs for integration with popular tools like Google W
 ---
 
 <div align="center">
-  <strong>Built with ❤️ for Indian startups and SMEs</strong>
+  <strong>Built with ❤️ for Indian startups and SMEs</strong> by Team AlphaQ
   
   [Website](https://legalease.com) • [Documentation](https://docs.legalease.com) • [API](https://api.legalease.com) • [Status](https://status.legalease.com)
 </div> 
