@@ -194,11 +194,11 @@ export default function Header() {
                     </div>
                     <div className="flex flex-col items-start">
                       <span className="text-sm font-medium text-legal-primary">
-                        {user.firstName} {user.lastName}
+                        Ronit Raj
                       </span>
                       {user.isGuest && (
                         <span className="text-xs text-legal-accent">
-                          Guest Mode
+                          ronitk964@gmail.com
                         </span>
                       )}
                     </div>
@@ -208,10 +208,10 @@ export default function Header() {
                 <DropdownMenuContent align="end" className="w-64">
                   <div className="px-3 py-2 border-b border-legal-border">
                     <p className="text-sm font-medium text-legal-primary">
-                      {user.firstName} {user.lastName}
+                      Ronit Raj
                     </p>
                     <p className="text-xs text-legal-secondary">
-                      {user.email || "Guest User"}
+                      {user.email || "ronitk964@gmail.com"}
                     </p>
                     {user.isGuest && (
                       <div className="mt-1">
@@ -359,13 +359,13 @@ export default function Header() {
                       </div>
                       <div>
                         <div className="text-sm font-medium text-legal-primary">
-                          {user.firstName} {user.lastName}
+                          Ronit Raj
                         </div>
                         <div className="text-xs text-legal-secondary">
-                          {user.email || "Guest User"}
+                          {user.email || "ronitk964@gmail.com"}
                         </div>
                         {user.isGuest && (
-                          <span className="legal-badge mt-1">Guest Mode</span>
+                          <span className="legal-badge mt-1">Ronit Raj</span>
                         )}
                       </div>
                     </div>

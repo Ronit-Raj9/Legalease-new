@@ -310,7 +310,7 @@ export default function DashboardPage() {
                     <Avatar className="h-8 w-8">
                       <AvatarImage src="" />
                       <AvatarFallback className="bg-[#8B4513] text-white text-sm">
-                        {getUserInitials()}
+                        R
                       </AvatarFallback>
                     </Avatar>
                   </Button>
@@ -320,11 +320,11 @@ export default function DashboardPage() {
                     <div className="flex flex-col space-y-1">
                       <p className="text-sm font-medium leading-none">
                         {user.isGuest
-                          ? "Guest User"
+                          ? "Ronit Raj"
                           : `${user.firstName} ${user.lastName}`}
                       </p>
                       <p className="text-xs leading-none text-muted-foreground">
-                        {user.email}
+                        ronitk964@gmail.com
                       </p>
                     </div>
                   </DropdownMenuLabel>
@@ -363,7 +363,7 @@ export default function DashboardPage() {
             <div>
               <h1 className="text-3xl font-bold text-[#2A2A2A] mb-2">
                 {user.isGuest
-                  ? "Welcome, Guest!"
+                  ? "Welcome back, Ronit!"
                   : `Welcome back, ${user.firstName}!`}
               </h1>
               <p className="text-[#8B7355]">
